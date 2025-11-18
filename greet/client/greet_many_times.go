@@ -8,7 +8,7 @@ import (
 	pb "github.com/pauloalexandre3d/grpc-go-course/greet/proto"
 )
 
-func goGreetManyTimes(c pb.GreetServiceClient) {
+func doGreetManyTimes(c pb.GreetServiceClient) {
 	req := &pb.GreetRequest{
 		FirstName: "Paulo",
 	}
